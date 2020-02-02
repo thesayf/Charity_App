@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Welcome to the Charity App Github Page
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Clone the repo either via `https` or `ssh`
+* Run `bundle install` to install the gems in the Gemfile
+* Details about the model relationship is documented in the seeds file [](here)
+* Run `bin/rails db:setup && bin/rails db:migrate bin/rails db:seed` to test the model relationship in development
